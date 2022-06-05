@@ -4,6 +4,8 @@
 #com o mínimo de bloat da interface possível. Recomendado executar sem nenhuma interface gráfica e
 #sem nenhum gerenciador de login instalados (SDDM, LightDM, etc).
 
+#Aps a instalação, o GDM irá iniciar automaticamente. Não é necessário reiniciar.
+
 echo 'Atualizando repositório'
 pacman -Syyu
 
