@@ -2,7 +2,7 @@
 
 #Script que uso para instalação da interface Gnome Shell com os mínimos componentes que julgo necessário,
 #com o mínimo de bloat da interface possível. Recomendado executar sem nenhuma interface gráfica e
-#sem nenhum gerenciador de login (SDDM, LightDM, etc).
+#sem nenhum gerenciador de login instalados (SDDM, LightDM, etc).
 
 echo 'Atualizando repositório'
 pacman -Syyu
