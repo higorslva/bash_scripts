@@ -17,6 +17,7 @@ pacman -S gnome-shell gnome-shell-extensions gnome-terminal nautilus gnome-tweak
 #ou derivados.
 
 #yay -S chrome-gnome-shell-git
+#git clone https://aur.archlinux.org/mutter-rounded.git && cd mutter-rounded && makepkg --nocheck -si 
 
 echo ''
 echo '--------------------'
