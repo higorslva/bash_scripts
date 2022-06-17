@@ -12,7 +12,7 @@ systemctl stop sddm.service
 systemctl disable sddm.service
 
 echo "Desinstalando Plasma"
-sudo pacman -Rs plasma-meta kde-system-meta latte-dock kwrite kate konsole gwenview spectacle kvantum ark okular #libdbusmenu-glib
+sudo pacman -Rns plasma-wayland-session plasma-meta kde-system-meta latte-dock kwrite kate konsole gwenview spectacle kvantum ark okular #libdbusmenu-glib
 echo ''
 echo ''
 echo '-----------'

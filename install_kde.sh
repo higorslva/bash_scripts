@@ -9,7 +9,7 @@ echo "Atualizando banco de dados do repositório local"
 pacman -Syyu
 
 echo "Instalando KDE Minimal"
-pacman -S plasma-meta kde-system-meta latte-dock kwrite kate konsole gwenview spectacle kvantum ark libdbusmenu-glib okular --needed
+pacman -S plasma-meta plasma-wayland-session kde-system-meta latte-dock kwrite kate konsole gwenview spectacle kvantum ark libdbusmenu-glib okular --needed
 echo ''
 echo ''
 echo 'Ativando SSDM'
