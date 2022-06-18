@@ -7,7 +7,7 @@
 #	vários pacotes que esse script não cobre serão deixados para trás
 
 echo 'Removendo Gnome shell e suas dependencias'
-pacman -Rsn gnome-shell gnome-shell-extensions gnome-terminal nautilus gnome-tweaks gdm gedit gnome-disk-utility gnome-photos gdm gnome-calculator gnome-calendar gnome-backgrounds gedit xf86-video-intel xdg-desktop-portal-gnome eog file-roller 
+pacman -Rsn gnome-remote-desktop gnome-shell gnome-shell-extensions gnome-terminal nautilus gnome-tweaks gdm gedit gnome-disk-utility gnome-photos gdm gnome-calculator gnome-calendar gnome-backgrounds gedit xf86-video-intel xdg-desktop-portal-gnome eog file-roller 
 
 
 #Caso tenha instalado o pacote abaixo com yay, descomente a linha a seguir
