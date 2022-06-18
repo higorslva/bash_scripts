@@ -1,9 +1,4 @@
 #!/usr/bin/env bash
-# ----------------------------- VARIÁVEIS ----------------------------- #
-#DIRETORIO_DOWNLOADS="$HOME/Downloads/programas"
-# ---------------------------------------------------------------------- #
-
-# ----------------------------- REQUISITOS ----------------------------- #
 
 ## Atualizando o repositório e um último upgrade ##
 pacman -Syyu
