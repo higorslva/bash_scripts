@@ -4,9 +4,9 @@
 pacman -Syyu
 
 ## Mudança para o diretório de instalação do yay ##
-cd ~/Downloads/
+cd ~/Downloads/ || exit
 mkdir yay-git
-cd yay-git
+cd yay-git || exit
 ## Instalação do yay para o AUR ##
 pacman -S --needed git base-devel && git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si
 
