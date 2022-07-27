@@ -22,3 +22,4 @@ yay -S adw-gtk3-git chrome-gnome-shell-git debtap eclipse-jee hunspell-pt-br mak
 
 #Habilitando serviços do systemd
 systemctl enable NetworkManager
+systemctl start NetworkManager
