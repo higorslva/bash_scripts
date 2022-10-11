@@ -17,7 +17,7 @@ pacman -S  gnome-remote-desktop gnome-shell gnome-shell-extensions gnome-termina
 #ou derivados.
 
 #yay -S chrome-gnome-shell-git
-#git clone https://aur.archlinux.org/mutter-rounded.git && cd mutter-rounded && makepkg --nocheck -si 
+git clone https://aur.archlinux.org/mutter-rounded.git && cd mutter-rounded && makepkg --nocheck -si 
 
 echo ''
 echo '--------------------'
