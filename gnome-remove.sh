@@ -11,7 +11,7 @@ pacman -Rsn gnome-remote-desktop gnome-shell gnome-shell-extensions gnome-termin
 
 
 #Caso tenha instalado o pacote abaixo com yay, descomente a linha a seguir
-#yay -Rsn chrome-gnome-shell-git
+#yay -Rsn gnome-browser-connector
 
 echo ''
 echo ''

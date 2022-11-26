@@ -16,9 +16,9 @@ pacman -S  gnome-remote-desktop gnome-shell gnome-shell-extensions gnome-termina
 #para instalação de extenções do site oficial, mesmo se usar Firefox
 #ou derivados.
 
-#yay -S chrome-gnome-shell-git
-git clone https://aur.archlinux.org/mutter-rounded.git && cd mutter-rounded && makepkg --nocheck -si 
-
+#yay -S gnome-browser-connector adw-gtk3-git
+#git clone https://aur.archlinux.org/mutter-rounded.git && cd mutter-rounded && makepkg --nocheck -si 
+# Desde o Gnome 43, o mutter-rounded deixou de ser atualizado
 echo ''
 echo '--------------------'
 echo 'Habilitando GDM'
