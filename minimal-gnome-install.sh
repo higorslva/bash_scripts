@@ -10,15 +10,15 @@ echo 'Atualizando repositório'
 pacman -Syyu
 
 echo 'Instalação mínima do Gnome'
-pacman -S  gnome-remote-desktop gnome-shell gnome-shell-extensions gnome-terminal nautilus gnome-tweaks gdm gedit evince gnome-disk-utility gnome-keyring gnome-photos gdm gnome-calculator gnome-calendar gnome-backgrounds gedit xf86-video-intel xdg-desktop-portal-gnome eog file-roller --needed
+pacman -S  gnome-remote-desktop gnome-shell gnome-shell-extensions gnome-terminal nautilus gnome-tweaks gdm gedit evince gnome-disk-utility gnome-keyring gnome-photos gdm gnome-calculator gnome-calendar gnome-backgrounds gedit xf86-video-intel xdg-desktop-portal-gnome eog file-roller gnome-control-center --needed
 
 #Caso possua o yay, descomente a linha abaixo. O pacote é necessário
 #para instalação de extenções do site oficial, mesmo se usar Firefox
 #ou derivados.
 
-#yay -S gnome-browser-connector adw-gtk3-git
+#yay -S chrome-gnome-shell-git
 #git clone https://aur.archlinux.org/mutter-rounded.git && cd mutter-rounded && makepkg --nocheck -si 
-# Desde o Gnome 43, o mutter-rounded deixou de ser atualizado
+
 echo ''
 echo '--------------------'
 echo 'Habilitando GDM'
