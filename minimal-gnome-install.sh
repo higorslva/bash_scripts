@@ -7,10 +7,10 @@
 #Após a instalação o GDM irá iniciar automaticamente. Não é necessário reiniciar a máquina.
 
 echo 'Atualizando repositório'
-pacman -Syyu
+pacman -Syu
 
 echo 'Instalação mínima do Gnome'
-pacman -S  gnome-remote-desktop gnome-shell gnome-shell-extensions gnome-terminal nautilus gnome-tweaks gdm gedit evince gnome-disk-utility gnome-keyring gnome-photos gdm gnome-calculator gnome-calendar gnome-backgrounds gedit xf86-video-intel xdg-desktop-portal-gnome eog file-roller gnome-control-center --needed
+pacman -S  gnome-remote-desktop gnome-shell gnome-shell-extensions gnome-terminal nautilus gnome-tweaks gdm gedit evince gnome-disk-utility gnome-keyring gnome-photos gdm gnome-calculator gnome-calendar gnome-backgrounds gedit xf86-video-intel xdg-desktop-portal-gnome eog file-roller gnome-control-center gst-plugin-pipewire gst-plugins-good gnome-text-editor alsa-utils geary gnome-weather --needed
 
 #Caso possua o yay, descomente a linha abaixo. O pacote é necessário
 #para instalação de extenções do site oficial, mesmo se usar Firefox
