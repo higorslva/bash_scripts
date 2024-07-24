@@ -14,7 +14,6 @@ pacman -S --needed git base-devel && git clone https://aur.archlinux.org/yay.git
 # ----------------------------- EXECUÇÃO ----------------------------- #
 
 ## Download e instalaçao de programas do repositório oficial ##
-pacman -S libreoffice-still libreoffice-still-pt-br virtualbox flameshot atom bat bashtop code codeblocks docker geogebra gimp git mysql-workbench noto-fonts-emoji jdk-openjdk openssh postgreesql kleopatra gnome-keyring qbittorrent telegram-desktop unrar unzip virtualbox vlc zsh --needed
-
+pacman -S libreoffice-still libreoffice-still-pt-br bashtop code docker geogebra gimp git mysql-workbench noto-fonts-emoji jdk-openjdk openssh qbittorrent telegram-desktop unrar unzip virtualbox vlc zsh --needed
 ## Download e instalação de programas do AUR ##
-yay -S adw-gtk3-git chrome-gnome-shell-git debtap eclipse-jee hunspell-pt-br makedeb ncurses5-compat-libs otf-monacob-git ttf-monaco tuxguitar --needed
+yay -S ncurses5-compat-libs otf-monacob-git ttf-monaco tuxguitar --needed
